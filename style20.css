@@ -1,0 +1,590 @@
+/* ================= GENERAL ================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    color: #1e293b;
+
+    background: white;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.main-navbar {
+    background: #4f46e5;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.85) !important;
+
+    margin: 0 8px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: white !important;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    padding: 80px 0;
+
+    background: #eef2ff;
+}
+
+.hero-section h1 span {
+    color: #4f46e5;
+}
+
+.hero-section p {
+    max-width: 600px;
+}
+
+.hero-badge {
+    background: #ddd6fe;
+
+    color: #4f46e5;
+
+    padding: 8px 14px;
+}
+
+
+/* SEARCH */
+
+.hero-search {
+    max-width: 600px;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+}
+
+.hero-search .input-group-text {
+    background: white;
+
+    border: none;
+}
+
+.hero-search .form-control {
+    height: 52px;
+
+    border: none;
+
+    box-shadow: none;
+}
+
+.hero-search .btn {
+    padding: 0 25px;
+}
+
+
+/* HERO BOX */
+
+.hero-box {
+    height: 280px;
+
+    background: #4f46e5;
+
+    border-radius: 25px;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.hero-box > i {
+    font-size: 120px;
+
+    color: white;
+}
+
+
+.floating-card {
+    position: absolute;
+
+    background: white;
+
+    padding: 12px 18px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+
+    font-weight: bold;
+}
+
+.floating-card i {
+    color: #4f46e5;
+
+    margin-right: 5px;
+}
+
+.card-one {
+    top: 30px;
+
+    left: -20px;
+}
+
+.card-two {
+    bottom: 30px;
+
+    right: -20px;
+}
+
+
+/* ================= CATEGORIES ================= */
+
+.category-card {
+    padding: 25px 15px;
+
+    text-align: center;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #4f46e5;
+
+    box-shadow: 0 8px 25px rgba(79,70,229,0.12);
+}
+
+.category-card i {
+    display: block;
+
+    font-size: 32px;
+
+    color: #4f46e5;
+
+    margin-bottom: 12px;
+}
+
+.category-card small {
+    color: #64748b;
+}
+
+
+/* ================= COURSES ================= */
+
+.courses-section {
+    background: #f8fafc;
+}
+
+.course-card {
+    border: none;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+
+.course-image {
+    height: 180px;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.course-image i {
+    font-size: 70px;
+
+    color: white;
+}
+
+.course-image .badge {
+    position: absolute;
+
+    top: 15px;
+
+    left: 15px;
+
+    background: white;
+
+    color: #4f46e5;
+}
+
+.web-image {
+    background: #4f46e5;
+}
+
+.data-image {
+    background: #0891b2;
+}
+
+.design-image {
+    background: #db2777;
+}
+
+.course-category {
+    color: #4f46e5;
+
+    font-weight: bold;
+}
+
+.instructor-avatar {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+
+    background: #ddd6fe;
+
+    color: #4f46e5;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 11px;
+
+    font-weight: bold;
+}
+
+
+/* ================= INSTRUCTOR ================= */
+
+.instructor-card {
+    border: none;
+
+    border-radius: 16px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.large-avatar {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    background: #ddd6fe;
+
+    color: #4f46e5;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+
+/* ================= VIDEO SECTION ================= */
+
+.lesson-section {
+    background: #f8fafc;
+}
+
+
+/* VIDEO CONTAINER */
+
+.video-container {
+    width: 100%;
+
+    background: #000;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+
+/* IMAGE */
+
+.video-thumbnail {
+    width: 100%;
+
+    height: 400px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.video-thumbnail img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* PLAY BUTTON */
+
+.play-button {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 80px;
+    height: 80px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: rgba(37, 99, 235, 0.95);
+
+    color: white;
+
+    font-size: 45px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+
+    background: #2563eb;
+}
+
+
+/* VIDEO CONTROLS */
+
+.video-controls {
+    height: 55px;
+
+    padding: 8px 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: white;
+}
+
+.video-controls .progress {
+    height: 5px;
+}
+
+.video-controls span {
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+
+/* ================= LESSON LIST ================= */
+
+.lesson-card {
+    border: none;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.lesson-item {
+    padding: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    border-bottom: 1px solid #e2e8f0;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.lesson-item:hover {
+    background: #f8fafc;
+}
+
+.lesson-item > i {
+    color: #64748b;
+
+    font-size: 18px;
+}
+
+.lesson-item div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.lesson-item small {
+    color: #94a3b8;
+
+    margin-top: 3px;
+}
+
+.active-lesson {
+    background: #eef2ff;
+
+    border-left: 3px solid #4f46e5;
+}
+
+.active-lesson > i {
+    color: #4f46e5;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #0f172a;
+
+    color: #94a3b8;
+}
+
+.footer a {
+    color: #94a3b8;
+
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer hr {
+    border-color: #334155;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-box {
+        max-width: 500px;
+
+        margin: 30px auto 0;
+    }
+
+    .video-thumbnail {
+        height: 320px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-box {
+        height: 230px;
+    }
+
+    .hero-box > i {
+        font-size: 90px;
+    }
+
+    .card-one {
+        left: 5px;
+    }
+
+    .card-two {
+        right: 5px;
+    }
+
+    .video-thumbnail {
+        height: 250px;
+    }
+
+    .play-button {
+        width: 65px;
+        height: 65px;
+
+        font-size: 35px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .video-thumbnail {
+        height: 210px;
+    }
+
+    .video-controls span {
+        display: none;
+    }
+
+    .footer a {
+        margin-left: 0;
+
+        margin-right: 15px;
+    }
+
+}
